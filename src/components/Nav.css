@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav * {
+  position: absolute;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__contents {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  height: 25px;
+  object-fit: contain;
+  padding-left: 10px;
+}
